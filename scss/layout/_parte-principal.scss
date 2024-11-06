@@ -1,0 +1,17 @@
+@import "../utilities/variables";
+
+main{display: grid;
+    place-items: center;
+    color: $color-principal;
+    font-weight: bold;
+    text-align: center;
+    span{ font-size: $fuente-pequena;}
+    h1{font-size: $fuente-grande;
+    &:hover{font-size: 8em;}}
+    h2{font-size: $fuente-normal;}
+    .imagen-principal{
+    margin: 2%;
+        padding: 2%;
+        width: 80%;
+        height: 70%;
+}}

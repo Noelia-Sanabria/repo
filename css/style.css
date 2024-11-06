@@ -1,0 +1,40 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url("../img/fondo.jpg");
+}
+
+main {
+  display: grid;
+  place-items: center;
+  color: orangered;
+  font-weight: bold;
+  text-align: center;
+}
+main span {
+  font-size: 1.5em;
+}
+main h1 {
+  font-size: 5em;
+}
+main h1:hover {
+  font-size: 8em;
+}
+main h2 {
+  font-size: 2em;
+}
+main .imagen-principal {
+  margin: 2%;
+  padding: 2%;
+  width: 80%;
+  height: 70%;
+}
+
+footer {
+  color: orangered;
+}
+
+/*# sourceMappingURL=style.css.map */

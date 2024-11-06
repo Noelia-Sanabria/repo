@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/reset/_reset.scss","../scss/layout/_parte-principal.scss","../scss/utilities/_variables.scss","../scss/layout/_footer.scss"],"names":[],"mappings":"AAAA;EAAE;EACE;;;AAEA;EAAK;;;ACDT;EAAK;EACD;EACA,OCJc;EDKd;EACA;;AACA;EAAM,WCJO;;ADKb;EAAG,WCJS;;ADKZ;EAAQ;;AACR;EAAG,WCRS;;ADSZ;EACA;EACI;EACA;EACA;;;AEfR;EAAO","file":"style.css"}
