@@ -1,0 +1,20 @@
+@import "../utilities/variables";
+
+header{
+    nav{
+        div{background-color: $bg-color-1 !important;
+            .burger{ background-color: $bg-color-2 !important;}
+            div{
+                ul{
+                    a{ color: $color-principal !important;}
+                }
+            }
+            a{
+                img{
+                    width: 2em;
+                    height: 2em;
+                }
+            }
+        }
+    }
+}

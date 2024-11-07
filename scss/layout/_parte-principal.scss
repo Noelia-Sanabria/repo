@@ -6,8 +6,7 @@ main{display: grid;
     font-weight: bold;
     text-align: center;
     span{ font-size: $fuente-pequena;}
-    h1{font-size: $fuente-grande;
-    &:hover{font-size: 8em;}}
+    h1{font-size: $fuente-grande;}
     h2{font-size: $fuente-normal;}
     .imagen-principal{
     margin: 2%;
