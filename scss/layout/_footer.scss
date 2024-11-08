@@ -1,23 +1,25 @@
 @import "../utilities/variables";
 
 footer{color: $color-principal;
-    display: flex;
+    display: grid;
+    place-items: center;
     margin: 1.1em;
     padding: 1.1em;
-    text-align: center;
+   
 
 div{
-    p{ font-family: Arial, Helvetica, sans-serif;
+    p{ font-family: $font-family-base;
     font-size: $fuente-pequena;
-margin: 1em;
-padding: 1em;}
-    img{width: 5em;
+margin: $margin-small;
+padding: $padding-small;}
+    .logo{width: 5em;
         height: 5em; }
     a{
-        img{ margin:1em;
-        padding:1em;
-    width: 5em;
-    height: 5em;}
+        img{margin:$margin-small;
+        padding:$padding-small;
+        width: 6em;
+        height: 6em;
+   }
     
 
     }

@@ -5,12 +5,18 @@ main{display: grid;
     color: $color-principal;
     font-weight: bold;
     text-align: center;
-    span{ font-size: $fuente-pequena;}
+
+    span{ font-size: $fuente-pequena;
+    font-family: $font-family-base;}
+
     h1{font-size: $fuente-grande;}
+
     h2{font-size: $fuente-normal;}
-    .imagen-principal{
-    margin: 2%;
-        padding: 2%;
-        width: 80%;
-        height: 70%;
-}}
+    
+    .imagen-principal{ margin: $margin-small;
+        padding: $padding-small;
+        width: 50em;
+        height: 40em;}
+    p{ @extend span}
+
+}
