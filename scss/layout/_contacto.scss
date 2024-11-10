@@ -1,0 +1,22 @@
+@import "../utilities/variables";
+
+.parte-contacto{
+    .div-contacto{ display: block;
+        .h2-contacto{}
+        form{
+            display: grid !important;
+            place-items: center !important;
+            margin: 1.1em;
+            padding: 1.1em 1.1em;
+
+            label{
+
+            }
+            button{margin: 1em;
+                padding: 1em;
+
+            }
+        }
+
+    }
+}

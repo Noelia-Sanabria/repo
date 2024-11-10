@@ -1,9 +1,9 @@
 @import "../utilities/variables";
+@import "../utilities/minxin";
+@import "../responsive/medias-1024px.scss";
 
-main{display: grid;
-    place-items: center;
-    color: $color-principal;
-    font-weight: bold;
+
+main{ @include grid;
     text-align: center;
 
     span{ font-size: $fuente-pequena;
@@ -15,8 +15,9 @@ main{display: grid;
     
     .imagen-principal{ margin: $margin-small;
         padding: $padding-small;
-        width: 50em;
-        height: 40em;}
-    p{ @extend span}
+        width: 90%;
+        height: 70%;
+    transition: 3s;}
+    .edades{ @extend span}
 
 }

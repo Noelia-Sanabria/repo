@@ -1,0 +1,20 @@
+@import "../utilities/variables";
+
+.parte-historia{
+    .div-historia{margin: $margin-medium;
+        padding: $padding-medium;
+        .h2-historia{ font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+        .parrafo-historia{
+            margin: $margin-medium;
+            padding: 1.5em 1.5em;
+            border: 4px solid orange;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2em;
+
+        }
+
+    }
+}

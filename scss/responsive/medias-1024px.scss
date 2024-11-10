@@ -1,0 +1,71 @@
+@import "../utilities/variables";
+@import "../utilities/minxin";
+
+@media screen and (min-width: 1024px) 
+{
+    main{
+        span{font-size: $fuente-normal;
+        font-family: Arial, Helvetica, sans-serif;}
+        h1{
+            font-size: 5em;
+            transition: 2s;
+            &:hover{font-size: 7em;}
+        }
+        h2{
+            font-size: 200%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img{
+            &:hover{ width: 100%;
+            height: 90%;}
+        }
+        .edades{ font-size: $fuente-pequena;
+            transition: 2s;
+            margin: 1.2px;
+            padding: 1.2px;
+            border: 2px solid $color-principal;
+            background-color: $color-principal;
+            color: $bg-color-1;
+            align-items: center;
+        &:hover{font-size: $fuente-normal;}}
+    }
+
+    footer{
+        div{
+            display: flex;
+            align-items: center;
+            
+            a{
+                img{
+                    position: fixed;
+                    bottom: 1.5em;
+                    right: 1.5em;
+
+                }
+            }
+        }
+    }
+
+    header{
+        nav{
+            div{ display: flex !important;
+                justify-content: end !important;
+                div{
+                    ul{
+                        li{
+                            a{ font-size: $fuente-pequena !important;
+                                font-weight: bold !important;
+
+                            }
+                        }
+
+                    }
+
+                }
+                
+            }
+
+        }
+    }
+}
