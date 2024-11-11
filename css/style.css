@@ -49,6 +49,10 @@ body {
     position: fixed;
     bottom: 1.5em;
     right: 1.5em;
+    transition: 2s;
+  }
+  footer div a img:hover {
+    transform: rotate 360deg;
   }
   header nav div {
     display: flex !important;
@@ -124,6 +128,10 @@ main .imagen-principal {
     position: fixed;
     bottom: 1.5em;
     right: 1.5em;
+    transition: 2s;
+  }
+  footer div a img:hover {
+    transform: rotate 360deg;
   }
   header nav div {
     display: flex !important;
@@ -150,6 +158,10 @@ footer div p {
 footer div .logo {
   width: 5em;
   height: 5em;
+  transition: 2s;
+}
+footer div .logo:hover {
+  transform: rotate 360deg;
 }
 footer div a img {
   margin: 1.1em;
@@ -159,17 +171,55 @@ footer div a img {
 }
 
 header nav div {
-  background-color: black !important;
+  background-image: linear-gradient(to right, black, rgb(53, 35, 2)) !important;
 }
 header nav div .burger {
   background-color: orange !important;
 }
-header nav div div ul a {
+header nav div div ul li a {
+  margin: 1em;
   color: orangered !important;
+  transition: 2s;
+}
+header nav div div ul li a:hover {
+  transform: translate(-20px);
 }
 header nav div a img {
   width: 2em;
   height: 2em;
+}
+
+.parte-historia .div-historia {
+  margin: 1.5em;
+  padding: 1.5em;
+}
+.parte-historia .div-historia .h2-historia {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3em;
+}
+.parte-historia .div-historia .parrafo-historia {
+  margin: 1.5em;
+  padding: 1.5em 1.5em;
+  border: 4px solid orange;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2em;
+  background: rgb(0, 0, 5);
+  background: linear-gradient(94deg, rgb(0, 0, 5) 0%, rgba(149, 144, 36, 0.7148109244) 95%);
+}
+
+.parte-contacto .div-contacto {
+  display: block;
+}
+.parte-contacto .div-contacto form {
+  display: grid !important;
+  place-items: center !important;
+  margin: 1.1em;
+  padding: 1.1em 1.1em;
+}
+.parte-contacto .div-contacto form button {
+  margin: 1em;
+  padding: 1em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -213,6 +263,10 @@ header nav div a img {
     position: fixed;
     bottom: 1.5em;
     right: 1.5em;
+    transition: 2s;
+  }
+  footer div a img:hover {
+    transform: rotate 360deg;
   }
   header nav div {
     display: flex !important;
@@ -222,60 +276,6 @@ header nav div a img {
     font-size: 2em !important;
     font-weight: bold !important;
   }
-}
-footer {
-  display: grid;
-  place-items: center;
-  color: orangered;
-  font-weight: bold;
-  text-align: center;
-}
-footer div p {
-  font-family: "Arial";
-  font-size: 2em;
-  margin: 1.1em;
-  padding: 1.1em;
-}
-footer div .logo {
-  width: 5em;
-  height: 5em;
-}
-footer div a img {
-  margin: 1.1em;
-  padding: 1.1em;
-  width: 6em;
-  height: 6em;
-}
-
-.parte-historia .div-historia {
-  margin: 1.5em;
-  padding: 1.5em;
-}
-.parte-historia .div-historia .h2-historia {
-  font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 3em;
-}
-.parte-historia .div-historia .parrafo-historia {
-  margin: 1.5em;
-  padding: 1.5em 1.5em;
-  border: 4px solid orange;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2em;
-}
-
-.parte-contacto .div-contacto {
-  display: block;
-}
-.parte-contacto .div-contacto form {
-  display: grid !important;
-  place-items: center !important;
-  margin: 1.1em;
-  padding: 1.1em 1.1em;
-}
-.parte-contacto .div-contacto form button {
-  margin: 1em;
-  padding: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */

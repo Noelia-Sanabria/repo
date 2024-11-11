@@ -16,7 +16,10 @@ footer{ @include grid;
     padding: $padding-small;}
 
     .logo{width: 5em;
-        height: 5em; }
+        height: 5em;
+        transition: 2s;
+        &:hover{ transform: rotate (360deg);}
+}
     a{
         img{margin:$margin-small;
         padding:$padding-small;

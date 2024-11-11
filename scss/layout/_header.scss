@@ -2,11 +2,19 @@
 
 header{
     nav{
-        div{background-color: $bg-color-1 !important;
+        div{background-image: linear-gradient(to right, black, rgb(53, 35, 2))!important;
             .burger{ background-color: $bg-color-2 !important;}
             div{
                 ul{
-                    a{ color: $color-principal !important;}
+                   li{
+                    a{ margin: 1em;
+                        color: $color-principal !important;
+                        transition: 2s;
+                        &:hover{
+                            transform: translate(-20px);
+                        }
+                    }
+                   }
                 }
             }
             a{
