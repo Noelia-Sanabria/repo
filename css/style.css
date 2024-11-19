@@ -50,9 +50,31 @@ body {
     bottom: 1.5em;
     right: 1.5em;
     transition: 2s;
+    animation-name: rotarelemento;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+  }
+  @keyframes rotarelemento {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(360deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
   }
   footer div a img:hover {
-    transform: rotate 360deg;
+    transform: rotate(360deg);
+    translate: -20px;
   }
   header nav div {
     display: flex !important;
@@ -129,9 +151,31 @@ main .imagen-principal {
     bottom: 1.5em;
     right: 1.5em;
     transition: 2s;
+    animation-name: rotarelemento;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+  }
+  @keyframes rotarelemento {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(360deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
   }
   footer div a img:hover {
-    transform: rotate 360deg;
+    transform: rotate(360deg);
+    translate: -20px;
   }
   header nav div {
     display: flex !important;
@@ -158,16 +202,10 @@ footer div p {
 footer div .logo {
   width: 5em;
   height: 5em;
-  transition: 2s;
 }
-footer div .logo:hover {
-  transform: rotate 360deg;
-}
-footer div a img {
+footer div div a img {
   margin: 1.1em;
   padding: 1.1em;
-  width: 6em;
-  height: 6em;
 }
 
 header nav div {
@@ -264,9 +302,31 @@ header nav div a img {
     bottom: 1.5em;
     right: 1.5em;
     transition: 2s;
+    animation-name: rotarelemento;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+  }
+  @keyframes rotarelemento {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(360deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
   }
   footer div a img:hover {
-    transform: rotate 360deg;
+    transform: rotate(360deg);
+    translate: -20px;
   }
   header nav div {
     display: flex !important;

@@ -42,7 +42,26 @@
                     bottom: 1.5em;
                     right: 1.5em;
                     transition: 2s;
-                    &:hover{ transform: rotate (360deg);}
+
+                    @keyframes rotarelemento {
+                        0%{ transform: rotate(0)}
+                        25%{transform: rotate(360deg)}
+                        50%{transform: rotate(180deg)}
+                        75%{transform: rotate(360deg)}
+                        100%{transform: rotate(0)}
+                        
+                    }
+
+                    animation-name: rotarelemento ;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                    animation-duration: 5s;
+                
+
+                    &:hover{
+                        transform: rotate(360deg); translate: -20px;
+                    }
+                    
                   
 
                 }
