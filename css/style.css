@@ -73,8 +73,7 @@ body {
     }
   }
   footer div a img:hover {
-    transform: rotate(360deg);
-    translate: -20px;
+    transform: rotate(360deg) translateX(-20px);
   }
   header nav div {
     display: flex !important;
@@ -174,8 +173,7 @@ main .imagen-principal {
     }
   }
   footer div a img:hover {
-    transform: rotate(360deg);
-    translate: -20px;
+    transform: rotate(360deg) translateX(-20px);
   }
   header nav div {
     display: flex !important;
@@ -325,8 +323,7 @@ header nav div a img {
     }
   }
   footer div a img:hover {
-    transform: rotate(360deg);
-    translate: -20px;
+    transform: rotate(360deg) translateX(-20px);
   }
   header nav div {
     display: flex !important;
