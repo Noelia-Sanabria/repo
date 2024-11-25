@@ -45,7 +45,7 @@ body {
     display: flex;
     align-items: center;
   }
-  footer div a img {
+  footer div a {
     position: fixed;
     bottom: 1.5em;
     right: 1.5em;
@@ -60,20 +60,17 @@ body {
       transform: rotate(0);
     }
     25% {
-      transform: rotate(360deg);
-    }
-    50% {
       transform: rotate(180deg);
     }
-    75% {
+    50% {
       transform: rotate(360deg);
+    }
+    75% {
+      transform: rotate(180deg);
     }
     100% {
       transform: rotate(0);
     }
-  }
-  footer div a img:hover {
-    transform: rotate(360deg) translateX(-20px);
   }
   header nav div {
     display: flex !important;
@@ -145,7 +142,7 @@ main .imagen-principal {
     display: flex;
     align-items: center;
   }
-  footer div a img {
+  footer div a {
     position: fixed;
     bottom: 1.5em;
     right: 1.5em;
@@ -160,20 +157,17 @@ main .imagen-principal {
       transform: rotate(0);
     }
     25% {
-      transform: rotate(360deg);
-    }
-    50% {
       transform: rotate(180deg);
     }
-    75% {
+    50% {
       transform: rotate(360deg);
+    }
+    75% {
+      transform: rotate(180deg);
     }
     100% {
       transform: rotate(0);
     }
-  }
-  footer div a img:hover {
-    transform: rotate(360deg) translateX(-20px);
   }
   header nav div {
     display: flex !important;
@@ -295,7 +289,7 @@ header nav div a img {
     display: flex;
     align-items: center;
   }
-  footer div a img {
+  footer div a {
     position: fixed;
     bottom: 1.5em;
     right: 1.5em;
@@ -310,20 +304,17 @@ header nav div a img {
       transform: rotate(0);
     }
     25% {
-      transform: rotate(360deg);
-    }
-    50% {
       transform: rotate(180deg);
     }
-    75% {
+    50% {
       transform: rotate(360deg);
+    }
+    75% {
+      transform: rotate(180deg);
     }
     100% {
       transform: rotate(0);
     }
-  }
-  footer div a img:hover {
-    transform: rotate(360deg) translateX(-20px);
   }
   header nav div {
     display: flex !important;

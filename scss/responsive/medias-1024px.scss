@@ -36,26 +36,29 @@
             display: flex;
             align-items: center;
             
-            a{  
+            a{ position: fixed;
+                bottom: 1.5em;
+                right: 1.5em;
+                transition: 2s; 
+                
+                @keyframes rotarelemento {
+                0%{ transform: rotate(0)}
+                25%{transform: rotate(180deg)}
+                50%{transform: rotate(360deg)}
+                75%{transform: rotate(180deg)}
+                100%{transform: rotate(0)}
+                
+            }
+
+            animation-name: rotarelemento ;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 5s;
+
                 img{
-                    position: fixed;
-                    bottom: 1.5em;
-                    right: 1.5em;
-                    transition: 2s;
+                    
 
-                    @keyframes rotarelemento {
-                        0%{ transform: rotate(0)}
-                        25%{transform: rotate(360deg)}
-                        50%{transform: rotate(180deg)}
-                        75%{transform: rotate(360deg)}
-                        100%{transform: rotate(0)}
-                        
-                    }
-
-                    animation-name: rotarelemento ;
-                    animation-iteration-count: infinite;
-                    animation-timing-function: linear;
-                    animation-duration: 5s;
+                    
                 
 
                    
