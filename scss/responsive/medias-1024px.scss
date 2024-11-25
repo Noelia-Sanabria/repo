@@ -92,3 +92,17 @@
         }
     }
 }
+
+
+
+parte-historia{
+    div-historia{
+        h2-historia{
+            parrafo-historia{
+                @media (max-width: 480px) {
+                    font-size: 12px;
+                  }
+            }
+        }
+    }
+}

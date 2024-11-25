@@ -81,6 +81,12 @@ body {
     font-weight: bold !important;
   }
 }
+@media (max-width: 480px) {
+  parte-historia div-historia h2-historia parrafo-historia {
+    font-size: 12px;
+  }
+}
+
 main {
   display: grid;
   place-items: center;
@@ -178,6 +184,12 @@ main .imagen-principal {
     font-weight: bold !important;
   }
 }
+@media (max-width: 480px) {
+  parte-historia div-historia h2-historia parrafo-historia {
+    font-size: 12px;
+  }
+}
+
 footer {
   display: grid;
   place-items: center;
@@ -323,6 +335,11 @@ header nav div a img {
   header nav div div ul li a {
     font-size: 2em !important;
     font-weight: bold !important;
+  }
+}
+@media (max-width: 480px) {
+  parte-historia div-historia h2-historia parrafo-historia {
+    font-size: 12px;
   }
 }
 
