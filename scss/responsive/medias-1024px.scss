@@ -95,14 +95,17 @@
 
 
 
-parte-historia{
-    div-historia{
-        h2-historia{
-            parrafo-historia{
-                @media (max-width: 480px) {
-                    font-size: 12px;
-                  }
+
+@media scren and (max-width: 480px) {
+    parte-historia{
+        div-historia{
+            h2-historia{
+                parrafo-historia{
+                    font-size: xx-small;
+                   
+                }
             }
         }
     }
-}
+    
+  }
